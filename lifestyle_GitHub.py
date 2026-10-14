@@ -6,7 +6,7 @@ import requests
 import gdown
 
 # ==================== CONFIGURATION ====================
-BASE_DIR = r"D:\Automation\lifestyle"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Naya Instagram Page ID (Lifestyle page ka)
 IG_USER_ID = "17841417988076711"
